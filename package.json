@@ -1,0 +1,34 @@
+{
+  "name": "pebble-health-backup",
+  "version": "0.0.1",
+  "description": "Web server to accept HTTP POST for uploading files from Pebble Health.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon -i ./files index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/asommer70/pebble-health-backup.git"
+  },
+  "keywords": [
+    "pebble",
+    "http",
+    "post",
+    "health"
+  ],
+  "author": "Adam Sommer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/asommer70/pebble-health-backup/issues"
+  },
+  "homepage": "https://github.com/asommer70/pebble-health-backup#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "serve-index": "^1.9.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}

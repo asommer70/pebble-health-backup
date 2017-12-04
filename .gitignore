@@ -1,3 +1,9 @@
+*.swp
+*.swo
+.DS_Store
+package-lock.json
+files/
+
 # Logs
 logs
 *.log
@@ -56,4 +62,3 @@ typings/
 
 # dotenv environment variables file
 .env
-
